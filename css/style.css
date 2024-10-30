@@ -1,0 +1,42 @@
+/* Basic styling for Custom Login Widget
+   This styling aligns the gravtar left, the links right.*/
+.iqclwidget .avatar_container {
+	float:left;
+}
+
+.iqclwidget ul {
+	list-style: none outside !important;
+}
+
+.iqclwidget .avatar_container img {
+	padding: 3px;
+	border: 1px solid #ddd;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-right: 8px;
+	margin-top: 5px;
+}
+
+.iqclwidget hr {
+	display: block;
+	clear: both; 
+	border: 0; 
+	border-top: 1px solid #999; 
+	height: 1px;
+}
+
+.custom-login-cp {
+	clear: both;
+}
+
+.pagenav {
+	margin: 2px 0 !important;
+}
+
+.custom-login-cp p {
+	margin: 0 !important;
+}
+
+.iq-cl-user:after {
+	content="<br />"
+}
